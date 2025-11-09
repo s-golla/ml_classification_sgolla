@@ -1,0 +1,8 @@
+loguru
+matplotlib
+numpy
+pandas
+seaborn
+ipython
+ipykernel
+scikit-learn
