@@ -1,7 +1,11 @@
 # Heart Disease Prediction Project
 
-**Author:** Saratachandra Golla  
+**Author:** Saratachandra Golla
 **Date:** 11/09/2025
+
+## Project Files
+- [Jupyter Notebook: classification_sgolla.ipynb](https://github.com/s-golla/ml_classification_sgolla/blob/main/classification_sgolla.ipynb)
+- [Peer Review: peer_review.md](https://github.com/s-golla/ml_classification_sgolla/blob/main/peer_review.md)
 
 ## Project Goal
 
@@ -14,9 +18,9 @@ The project uses the **Cleveland Heart Disease** dataset from the UCI Machine Le
 - **Features (X):** 13 clinical features including `age`, `sex`, `cp` (chest pain type), `trestbps` (resting blood pressure), `chol` (serum cholestoral), `thalach` (maximum heart rate achieved), etc.
 - **Target (y):** The `target` variable, indicating the presence of heart disease. It was converted from a multi-class variable (0-4) to a binary variable (0 = No Disease, 1 = Disease).
 
-## Installation
+## Setup and Execution
 
-To run this project locally, follow these steps:
+To run this project locally, please follow these steps:
 
 1.  **Clone the repository:**
     ```bash
@@ -26,24 +30,25 @@ To run this project locally, follow these steps:
 
 2.  **Create and activate a virtual environment:**
     ```bash
+    # Create the virtual environment
     python -m venv .venv
-    source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+
+    # Activate the environment
+    # On Windows:
+    .venv\Scripts\activate
+    # On macOS/Linux:
+    source .venv/bin/activate
     ```
 
-3.  **Install the required dependencies:**
+3.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-## Usage
-
-All analysis and modeling are contained within the Jupyter notebook. To explore the project, start Jupyter Lab:
-
-```bash
-jupyter lab
-```
-
-Then, open and run the `classification_sgolla.ipynb` notebook.
+4.  **Run the Jupyter Notebook:**
+    ```bash
+    jupyter notebook classification_sgolla.ipynb
+    ```
 
 ## Methodology
 
